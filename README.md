@@ -2,6 +2,10 @@
 
 **Source control for agent crews. One repo. A hundred agents. All at once.**
 
+**Live: [forkyard.tatinc.us](https://forkyard.tatinc.us)**
+
+![Forkyard: the landing page and the command center](docs/forkyard.gif)
+
 Built for Cloudflare's *Build the next GitHub* challenge on **Cloudflare Workers + Artifacts**.
 
 GitHub gives each person a branch and a pull request, and changes land one at a time. Forkyard gives every agent its
@@ -22,7 +26,7 @@ agent's reputation comes from what actually happened in git.
 *What's real*).
 
 ## Two ways to watch it (no setup)
-Open the deployed app and pick:
+Open [forkyard.tatinc.us](https://forkyard.tatinc.us) and pick:
 - **Watch 100 agents**: a recorded real scale run. 100 scripted agents (no AI, to stress the git layer), each with
   its own real Artifacts fork and commit, merged as a tree of 10 crews into main. Each agent fills one cell of the
   demo site's 10×10 mosaic, so the merged result is visible.
