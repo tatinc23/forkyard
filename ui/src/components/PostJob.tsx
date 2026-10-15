@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Modal } from "./Overlay";
 import "../styles/lend.css";
 import { getDemoKey, setDemoKey } from "../lib/config";
-import { MOCK_GOAL } from "../mock/script";
 
 /** Packaged outcome crews: a goal + budget the Foreman turns into an editable crew. For people who have never used git. */
 const OUTCOMES: { label: string; goal: string; budget: string }[] = [
@@ -16,7 +15,7 @@ const OUTCOMES: { label: string; goal: string; budget: string }[] = [
 
 /** "Post a job": the entry to plan -> Floor. Posting a real job needs the demo key; without one, the recorded run is the way in. */
 export function PostJob({ open, onClose, source, busy, error, needsKey, onStart, onWatch, watching }: { open: boolean; onClose: () => void; source: string; busy: boolean; error: string; needsKey: boolean; onStart: (goal: string, budget: number) => void; onWatch: () => void; watching: boolean }) {
-	const [goal, setGoal] = useState(MOCK_GOAL);
+	const [goal, setGoal] = useState("");
 	const [budget, setBudget] = useState("3.50");
 	const [key, setKey] = useState(getDemoKey());
 	const budgetNum = Number(budget);
@@ -47,7 +46,7 @@ export function PostJob({ open, onClose, source, busy, error, needsKey, onStart,
 				</div>
 				<label className="field">
 					<span>What should the crew build?</span>
-					<textarea data-autofocus value={goal} onChange={(e) => setGoal(e.target.value)} rows={3} maxLength={400} required />
+					<textarea data-autofocus placeholder="e.g. Fill the waterfall slot, add a dark mode toggle, and write tests for the newsletter endpoint." value={goal} onChange={(e) => setGoal(e.target.value)} rows={3} maxLength={400} required />
 				</label>
 				<div className="post-row">
 					<label className="field">
