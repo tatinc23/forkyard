@@ -1,0 +1,15 @@
+open
+    I:         -16.0 LUFS
+    LRA:         4.9 LU
+    Peak:       -1.5 dBFS
+0
+hood
+    I:         -16.0 LUFS
+    LRA:         5.3 LU
+    Peak:       -1.5 dBFS
+0
+close
+    I:         -16.1 LUFS
+    LRA:         4.9 LU
+    Peak:       -1.4 dBFS
+0

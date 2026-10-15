@@ -1,0 +1,6 @@
+t=33.00  runA MD5=c8202fa383640b0f4b614c08ef67f566  runB MD5=c8202fa383640b0f4b614c08ef67f566  fresh-page MD5=c8202fa383640b0f4b614c08ef67f566  IDENTICAL (order-independent)
+t=40.60  runA MD5=f4f6c38fb7d6838822e6214a56f580da  runB MD5=f4f6c38fb7d6838822e6214a56f580da  fresh-page MD5=f4f6c38fb7d6838822e6214a56f580da  IDENTICAL (order-independent)
+t=48.60  runA MD5=71f0f1dca762771ce6d2f118fb01b09e  runB MD5=71f0f1dca762771ce6d2f118fb01b09e  fresh-page MD5=71f0f1dca762771ce6d2f118fb01b09e  IDENTICAL (order-independent)
+t=62.00  runA MD5=361d6602d7ecf45e40e17607bf3552c9  runB MD5=361d6602d7ecf45e40e17607bf3552c9  fresh-page MD5=361d6602d7ecf45e40e17607bf3552c9  IDENTICAL (order-independent)
+master vs direct render t=33: PSNR average:38.107598
+master vs direct render t=48.6: PSNR average:38.230214

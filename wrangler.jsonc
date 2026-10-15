@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gadgethub",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "limits": { "cpu_ms": 120000 },
+  "artifacts": [{ "binding": "ARTIFACTS", "namespace": "gadgethub" }],
+  "ai": { "binding": "AI" },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*", "/preview/*", "/x402/*", "/mcp"]
+  },
+  "durable_objects": {
+    "bindings": [
+      { "name": "HALL", "class_name": "Hall" },
+      { "name": "JOB", "class_name": "Job" },
+      { "name": "DESK", "class_name": "Desk" }
+    ]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Hall", "Job", "Desk"] }],
+  "services": [{ "binding": "PAYMENTS_SELF", "service": "gadgethub" }],
+  "vars": {
+    "PAYMENTS_MODE": "x402",
+    "DAILY_JOB_CAP": "25",
+    "X402_FACILITATOR_URL": "https://x402.org/facilitator",
+    "PUBLIC_BASE_URL": "https://gadgethub.chris-d6a.workers.dev"
+  }
+}

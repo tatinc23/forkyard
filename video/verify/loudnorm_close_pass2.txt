@@ -1,0 +1,28 @@
+[aist#0:0/pcm_s16le @ 0x7ff0814069c0] Guessed Channel Layout: stereo
+Input #0, wav, from 'build/close_prenorm.wav':
+  Duration: 00:00:15.60, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'build/close_final.wav':
+  Metadata:
+    ISFT            : Lavf62.3.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_s16le
+[Parsed_loudnorm_0 @ 0x7ff081504fc0] 
+Input Integrated:    -22.5 LUFS
+Input True Peak:      -6.3 dBTP
+Input LRA:             7.8 LU
+Input Threshold:     -33.9 LUFS
+
+Output Integrated:   -16.1 LUFS
+Output True Peak:     -1.5 dBTP
+Output LRA:            4.4 LU
+Output Threshold:    -27.2 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        +0.1 LU
+[out#0/wav @ 0x7ff081406bc0] video:0KiB audio:2925KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.002604%
+size=    2925KiB time=00:00:15.60 bitrate=1536.0kbits/s speed=12.2x elapsed=0:00:01.28    

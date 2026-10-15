@@ -1,0 +1,243 @@
+/* Components. Empty slots (.waterfall, .pairing) show an outlined proof area until something is placed inside. */
+
+/* Specimen cards: .specimen > .specimen__glyph, .specimen__name, .specimen__text, .specimen__meta */
+.specimens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14.5rem), 1fr));
+  gap: clamp(12px, 1.6vw, 22px);
+}
+
+.specimen {
+  display: flex;
+  flex-direction: column;
+  min-height: 25rem;
+  padding: 22px 22px 20px;
+  overflow: hidden;
+  container-type: inline-size;
+  border-radius: var(--radius);
+  background: var(--chalk-2);
+  box-shadow: 0 7px 0 var(--chalk-3);
+}
+
+.specimen:nth-child(4n + 2) {
+  color: var(--chalk);
+  background: var(--hull);
+  box-shadow: 0 7px 0 #060c13;
+}
+
+.specimen:nth-child(4n + 3) {
+  background: var(--buoy);
+  box-shadow: 0 7px 0 #a67810;
+}
+
+.specimen:nth-child(4n + 4) {
+  color: var(--chalk);
+  background: var(--minium);
+  box-shadow: 0 7px 0 #80200f;
+}
+
+.specimen__glyph {
+  flex: 1;
+  margin: -0.06em 0 0 -0.04em;
+  font-size: clamp(4.5rem, 46cqw, 11rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  font-variation-settings: "wght" 900;
+  transition: font-variation-settings 0.5s var(--ease);
+}
+
+.specimen:hover .specimen__glyph {
+  font-variation-settings: "wght" 400;
+}
+
+.specimen__name {
+  font-family: var(--display);
+  font-stretch: 112%;
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: -0.01em;
+}
+
+.specimen__text {
+  max-width: 28ch;
+  margin-top: 8px;
+  font-family: var(--text);
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.specimen__meta {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid currentColor;
+  font-family: var(--text);
+  font-style: italic;
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+/* Waterfall: <div class="wf" style="--s:96"><span class="wf__size">96 px</span><p class="wf__text">Line</p></div> */
+.waterfall {
+  display: grid;
+  border-top: var(--edge) solid var(--hull);
+}
+
+.wf {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 16px;
+  align-items: baseline;
+  padding: 14px 0 12px;
+  border-bottom: 1px solid rgba(14, 26, 40, 0.25);
+}
+
+.wf__size {
+  color: var(--soft);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.wf__text {
+  overflow: hidden;
+  font-family: var(--display);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: min(calc(var(--s) * 1px), 15vw);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+/* Glyph grid: <li> cells; add .is-feature (3 x 3) or .is-wide (2 x 2) for emphasis */
+.glyphs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4.4rem, 1fr));
+  grid-auto-flow: dense;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.glyphs li {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border: var(--edge) solid var(--hull);
+  border-radius: 14px;
+  font-family: var(--display);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1;
+  user-select: none;
+  transition: background 0.15s, color 0.15s, transform 0.15s var(--ease);
+}
+
+.glyphs li:hover {
+  color: var(--chalk);
+  background: var(--hull);
+  transform: translateY(-3px);
+}
+
+.glyphs .is-wide {
+  grid-column: span 2;
+  grid-row: span 2;
+  color: var(--hull);
+  font-size: 5.5rem;
+  background: var(--buoy);
+}
+
+.glyphs .is-feature {
+  grid-column: span 3;
+  grid-row: span 3;
+  color: var(--chalk);
+  font-size: clamp(9rem, 17vw, 15rem);
+  background: var(--hull);
+  border-color: var(--hull);
+}
+
+/* Pairing tester: .pairing__controls (labels + selects or buttons) beside .pairing__sample.
+   Script sets --pair-head and --pair-body on .pairing to the chosen families. */
+.pairing {
+  --pair-head: var(--display);
+  --pair-body: var(--text);
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  gap: clamp(18px, 3vw, 40px);
+}
+
+.pairing__controls {
+  display: grid;
+  align-content: start;
+  gap: 18px;
+}
+
+.pairing label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95rem;
+  color: var(--soft);
+}
+
+.pairing select {
+  padding: 11px 14px;
+  border: var(--edge) solid var(--hull);
+  border-radius: 12px;
+  background: var(--chalk);
+}
+
+.pairing__sample {
+  padding: clamp(20px, 3vw, 36px);
+  border: var(--edge) solid var(--hull);
+  border-radius: var(--radius);
+  background: #f3f6f2;
+}
+
+.pairing__head {
+  font-family: var(--pair-head);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: clamp(2rem, 4.4vw, 3.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+
+.pairing__body {
+  max-width: 50ch;
+  margin-top: 18px;
+  font-family: var(--pair-body);
+  font-size: 1.15rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 720px) {
+  .pairing:not(:empty) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Open slots: an outlined proof area with a hatched corner. Disappears as soon as content is placed. */
+.waterfall:empty,
+.pairing:empty {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  min-height: 15rem;
+  border: var(--edge) dashed var(--hull);
+  border-radius: var(--radius);
+  background: repeating-linear-gradient(135deg, rgba(14, 26, 40, 0.06) 0 2px, transparent 2px 14px);
+}
+
+.waterfall:empty::before,
+.pairing:empty::before {
+  content: attr(data-empty);
+  max-width: 30ch;
+  padding: 0 20px;
+  color: var(--soft);
+  font-style: italic;
+  text-align: center;
+}
+
+/* slot:components-css */

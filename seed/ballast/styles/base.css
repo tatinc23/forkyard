@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+  background: var(--hull);
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  font-family: var(--text);
+  font-weight: 400;
+  font-size: 1.1875rem;
+  line-height: 1.55;
+  color: var(--hull);
+  background: var(--chalk);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-stretch: 125%;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--minium);
+  outline-offset: 3px;
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Font utilities: any component can take a Ballast face */
+.f-display {
+  font-family: var(--display);
+  font-stretch: 125%;
+  font-weight: 900;
+}
+
+.f-keel {
+  font-family: var(--display);
+  font-stretch: 62%;
+  font-weight: 800;
+}
+
+.f-text {
+  font-family: var(--text);
+  font-weight: 500;
+}
+
+.f-ledger {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-weight: 600;
+}
+
+/* slot:base-css */

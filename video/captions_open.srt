@@ -1,0 +1,72 @@
+1
+00:00:00,500 --> 00:00:03,780
+GitHub was built for people taking turns.
+
+2
+00:00:03,900 --> 00:00:10,100
+Agents don't. Hundreds of thousands of
+them need to change one repo at once.
+
+3
+00:00:10,200 --> 00:00:13,920
+So Forkyard gives every agent its own fork.
+
+4
+00:00:15,400 --> 00:00:21,120
+Each agent works in its own fork, at
+once. Every task is its own commit.
+
+5
+00:00:21,550 --> 00:00:25,670
+A live run: 6 agents, 43 commits.
+
+6
+00:00:25,700 --> 00:00:33,540
+A merge queue lands them one at a time. A conflict
+is data, and the agent that caused it fixes it.
+
+7
+00:00:34,000 --> 00:00:38,680
+Now scale it. Drag the crew size from 6 to a hundred.
+
+8
+00:00:39,600 --> 00:00:45,280
+Every agent still gets its own fork.
+Nobody shares a branch, so nobody waits.
+
+9
+00:00:46,200 --> 00:00:48,990
+A queue lands changes one at a time.
+
+10
+00:00:48,990 --> 00:00:56,120
+Instead, crews of ten merge in parallel into
+crew lines, and the crew lines merge into main.
+
+11
+00:00:57,000 --> 00:00:59,840
+Conflicts go back to the agent that caused them.
+
+12
+00:01:01,400 --> 00:01:10,560
+Five levels of ten reach a hundred thousand agents.
+That is the design. What we ran is a hundred.
+
+13
+00:01:10,900 --> 00:01:15,820
+Can a human watch a hundred
+agents? No. You watch exceptions.
+
+14
+00:01:16,000 --> 00:01:22,280
+The Inspector checks every delivery. Most are
+approved automatically. A few are flagged for you.
+
+15
+00:01:22,600 --> 00:01:30,720
+Open a flagged change and see a live before and
+after. Approve it, or reject it and it is reverted.
+
+16
+00:01:31,000 --> 00:01:34,040
+You only pay for work that merges.

@@ -1,0 +1,28 @@
+[aist#0:0/pcm_s16le @ 0x7fa7b7206100] Guessed Channel Layout: stereo
+Input #0, wav, from 'build/hood_prenorm.wav':
+  Duration: 00:00:43.00, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'build/hood_final.wav':
+  Metadata:
+    ISFT            : Lavf62.3.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_s16le
+[Parsed_loudnorm_0 @ 0x7fa7b92053c0] 
+Input Integrated:    -22.2 LUFS
+Input True Peak:      -6.1 dBTP
+Input LRA:             5.9 LU
+Input Threshold:     -32.9 LUFS
+
+Output Integrated:   -16.0 LUFS
+Output True Peak:     -1.5 dBTP
+Output LRA:            5.2 LU
+Output Threshold:    -26.6 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        +0.0 LU
+[out#0/wav @ 0x7fa7b7205ec0] video:0KiB audio:8062KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000945%
+size=    8063KiB time=00:00:43.00 bitrate=1536.0kbits/s speed=19.1x elapsed=0:00:02.25    

@@ -1,0 +1,346 @@
+.plan {
+	padding-block: clamp(20px, 2.4vw, 32px) 40px;
+}
+.plan-head {
+	max-width: 780px;
+}
+.foreman-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+.foreman-tag strong {
+	display: block;
+	line-height: 1.1;
+}
+.foreman-tag span {
+	font-size: 12.5px;
+	color: var(--ink-3);
+}
+.plan h1 {
+	font-size: clamp(28px, 3.6vw, 46px);
+	line-height: 1.04;
+	letter-spacing: -0.02em;
+	font-variation-settings: "wdth" 92, "opsz" 80;
+}
+.goal {
+	margin-top: 14px;
+	font-size: 18px;
+	color: var(--ink-2);
+	max-width: 60ch;
+}
+.summary {
+	margin-top: 10px;
+	max-width: 62ch;
+	color: var(--ink-2);
+}
+.cards {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0;
+	display: grid;
+	gap: 14px;
+}
+.card {
+	background: var(--paper);
+	border: 1.5px solid var(--ink);
+	border-radius: var(--r-md);
+	padding: 16px;
+	box-shadow: 0 6px 0 var(--c, var(--ink));
+	display: grid;
+	gap: 8px;
+	align-content: start;
+}
+.card-top {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.card-who {
+	flex: 1;
+	min-width: 0;
+}
+.card-who strong {
+	display: block;
+	font-size: 17px;
+	line-height: 1.15;
+}
+.card-who span {
+	font-size: 13px;
+	color: var(--ink-3);
+}
+.wage {
+	text-align: right;
+}
+.wage strong {
+	display: block;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: -0.02em;
+}
+.wage small {
+	font-size: 12px;
+	color: var(--ink-3);
+}
+.card h3 {
+	font-size: 22px;
+	letter-spacing: -0.015em;
+	margin-top: 6px;
+}
+.card p {
+	color: var(--ink-2);
+	font-size: 15px;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.paths {
+	list-style: none;
+	padding: 0;
+	margin: 4px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+.paths li {
+	display: inline-flex;
+	flex-direction: column;
+	gap: 2px;
+	padding: 5px 9px;
+	border-radius: var(--r-xs);
+	background: var(--paper-2);
+	box-shadow: inset 0 0 0 1px var(--line);
+	font-size: 12.5px;
+}
+.paths li.shared {
+	background: var(--warn-soft);
+	box-shadow: inset 0 0 0 1.5px #d9b45c;
+}
+.paths li em {
+	font-style: normal;
+	color: var(--warn);
+	font-weight: 600;
+	font-size: 12px;
+}
+.overlap-note {
+	display: flex;
+	gap: 12px;
+	align-items: flex-start;
+	margin-top: 20px;
+	padding: 14px;
+	border-radius: var(--r-md);
+	background: var(--warn-soft);
+	color: #4d3000;
+	max-width: 780px;
+	font-size: 14.5px;
+}
+.budget {
+	position: relative;
+	margin-top: 28px;
+	background: var(--ink);
+	color: #fff;
+	border-radius: var(--r-lg);
+	padding: 14px 18px;
+	display: grid;
+	gap: 10px;
+	box-shadow: 0 18px 40px -12px rgb(15 24 38 / 0.5);
+	z-index: 5;
+}
+.budget-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+.budget .big {
+	font-size: clamp(30px, 5vw, 44px);
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	line-height: 1;
+	font-variation-settings: "wdth" 90;
+}
+.budget .of {
+	color: #c9d2e0;
+	font-size: 15px;
+}
+.budget .chip {
+	background: #fff;
+}
+.meter {
+	display: flex;
+	height: 16px;
+	border-radius: 5px;
+	overflow: hidden;
+	gap: 3px;
+	background: repeating-linear-gradient(135deg, #2a3850 0 6px, #1f2b40 6px 12px);
+}
+.meter i {
+	display: block;
+	height: 100%;
+	border-radius: 3px;
+}
+.legend {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 16px;
+	font-size: 13.5px;
+	color: #dbe2ee;
+}
+.legend i {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	margin-right: 6px;
+}
+.budget .hint {
+	color: #c9d2e0;
+}
+.budget-actions {
+	display: flex;
+	gap: 12px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.budget .btn.ghost {
+	color: #fff;
+	box-shadow: inset 0 0 0 1.5px #aab6c8;
+}
+.budget .btn.ghost:hover:not(:disabled) {
+	background: #1b2638;
+	box-shadow: inset 0 0 0 1.5px #fff;
+}
+.budget .btn.orange {
+	flex: 1 1 220px;
+}
+.budget .btn:disabled {
+	background: #3a475c;
+	color: #dbe2ee;
+}
+.drafting {
+	margin-top: 32px;
+	display: grid;
+	gap: 14px;
+}
+.ghost-card {
+	border: 1.5px dashed var(--line-2);
+	border-radius: var(--r-md);
+	padding: 18px;
+	display: grid;
+	gap: 10px;
+}
+.ghost-card i {
+	display: block;
+	height: 12px;
+	border-radius: 3px;
+	background: linear-gradient(90deg, var(--bg-2) 0%, #fff 50%, var(--bg-2) 100%);
+	background-size: 220% 100%;
+	animation: sheen 1.6s var(--ease-in-out) infinite;
+	animation-delay: var(--d);
+}
+.ghost-card i:nth-child(1) {
+	width: 38%;
+}
+.ghost-card i:nth-child(2) {
+	width: 72%;
+}
+.ghost-card i:nth-child(3) {
+	width: 54%;
+}
+@keyframes sheen {
+	from {
+		background-position: 120% 0;
+	}
+	to {
+		background-position: -100% 0;
+	}
+}
+@media (min-width: 900px) {
+	.budget {
+		position: sticky;
+		bottom: 12px;
+	}
+	.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+	.drafting {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (min-width: 1200px) {
+	.cards {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+.foreman-log {
+	margin-top: 26px;
+	max-width: 780px;
+	background: var(--ink);
+	color: #fff;
+	border-radius: var(--r-md);
+	padding: 16px 18px;
+	display: grid;
+	gap: 12px;
+}
+.foreman-now {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	font-size: clamp(17px, 2.4vw, 22px);
+	font-weight: 600;
+	min-height: 32px;
+}
+.foreman-line {
+	display: block;
+}
+.bars-live {
+	display: inline-flex;
+	gap: 3px;
+	align-items: flex-end;
+	height: 20px;
+	flex: none;
+}
+.bars-live i {
+	width: 4px;
+	height: 100%;
+	background: var(--orange);
+	transform-origin: bottom;
+	animation: bar 1000ms var(--ease-in-out) infinite;
+}
+.bars-live i:nth-child(2) {
+	animation-delay: 150ms;
+}
+.bars-live i:nth-child(3) {
+	animation-delay: 300ms;
+}
+.bars-live i:nth-child(4) {
+	animation-delay: 450ms;
+}
+.foreman-done {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 4px;
+	font-size: 14px;
+	color: #c9d2e0;
+}
+.foreman-done li {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+.foreman-done svg {
+	color: #7fd8a4;
+	flex: none;
+}
+.foreman-done:empty {
+	display: none;
+}

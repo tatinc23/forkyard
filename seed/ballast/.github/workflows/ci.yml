@@ -1,0 +1,14 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # slot:ci-setup  (setup-node, npm install)
+      # slot:ci-test  (npm test)
+      # slot:ci-checks  (size budget, lint)
+      # slot:ci-deploy  (wrangler deploy on main)

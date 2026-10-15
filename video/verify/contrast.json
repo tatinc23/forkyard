@@ -1,0 +1,116 @@
+[
+  {
+    "pair": "ink on paper (headline, labels)",
+    "fg": "#1F1A14",
+    "bg": "#FBF7F0",
+    "ratio": 16.17,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "muted on paper (sub, captions)",
+    "fg": "#5E564B",
+    "bg": "#FBF7F0",
+    "ratio": 6.76,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "muted on paper2 (panel text)",
+    "fg": "#5E564B",
+    "bg": "#F3ECE0",
+    "ratio": 6.15,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "ink on paper2",
+    "fg": "#1F1A14",
+    "bg": "#F3ECE0",
+    "ratio": 14.71,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "orangeDeep on paper (accent text)",
+    "fg": "#A84A06",
+    "bg": "#FBF7F0",
+    "ratio": 5.39,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "orangeDeep on paper2",
+    "fg": "#A84A06",
+    "bg": "#F3ECE0",
+    "ratio": 4.9,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "ink on orange (text inside orange blocks)",
+    "fg": "#1F1A14",
+    "bg": "#F6821F",
+    "ratio": 6.69,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "ink on yellow",
+    "fg": "#1F1A14",
+    "bg": "#FBAD41",
+    "ratio": 9.17,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "ink on sand",
+    "fg": "#1F1A14",
+    "bg": "#E3D6BD",
+    "ratio": 12.02,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "paper on ink (button label)",
+    "fg": "#FBF7F0",
+    "bg": "#1F1A14",
+    "ratio": 16.17,
+    "min": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "orange vs paper (shape alone, non-text >= 3:1)",
+    "fg": "#F6821F",
+    "bg": "#FBF7F0",
+    "ratio": 2.42,
+    "min": 3,
+    "pass": false,
+    "note": "FAILS alone: every orange/yellow shape gets a 3px ink edge (ink vs orange below)"
+  },
+  {
+    "pair": "yellow vs paper (shape alone)",
+    "fg": "#FBAD41",
+    "bg": "#FBF7F0",
+    "ratio": 1.76,
+    "min": 3,
+    "pass": false,
+    "note": "FAILS alone: same 3px ink edge rule"
+  },
+  {
+    "pair": "ink vs orange (shape edge)",
+    "fg": "#1F1A14",
+    "bg": "#F6821F",
+    "ratio": 6.69,
+    "min": 3,
+    "pass": true
+  },
+  {
+    "pair": "line vs paper (hairline, decorative)",
+    "fg": "#D9CDB8",
+    "bg": "#FBF7F0",
+    "ratio": 1.47,
+    "min": 1,
+    "pass": true
+  }
+]

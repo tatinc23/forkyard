@@ -1,0 +1,82 @@
+[
+ {
+  "id": "walk.01",
+  "beat": "landing",
+  "text": "This is Forkyard. The home page loops in eleven seconds: a branch per person and one merge at a time, then a fork per agent, a merge tree instead of a queue, and review by exception."
+ },
+ {
+  "id": "walk.02",
+  "beat": "repo",
+  "text": "Here is a repository, a fictional type foundry called Ballast. It is an ordinary site with a clean history, and every branch, fork and contract is one click away."
+ },
+ {
+  "id": "walk.03",
+  "beat": "goal",
+  "text": "To start, you post a goal and a budget. Plain English, no tickets, and no assigning."
+ },
+ {
+  "id": "walk.04",
+  "beat": "plan",
+  "text": "The Foreman reads the goal and drafts a plan: a crew of specialists, the tasks each one owns, and the files each one may touch."
+ },
+ {
+  "id": "walk.05",
+  "beat": "override",
+  "text": "The plan is a proposal, not an order. Here I add a task of my own. The Foreman reacts to every edit, flags overlaps or a missing test, and offers one-click fixes."
+ },
+ {
+  "id": "walk.06",
+  "beat": "approve",
+  "text": "When the numbers look right, you approve the budget. Every agent is hired, forked, and handed a key that expires with its contract."
+ },
+ {
+  "id": "walk.07",
+  "beat": "crew",
+  "text": "This is the command center: a live crew of five AI agents, each in its own fork, committing as it goes. Nothing here is a replay."
+ },
+ {
+  "id": "walk.08",
+  "beat": "focus",
+  "text": "Focus any agent to see its tasks, its live code and its commits. I pause Vanta, send it a note, and resume. After its current commit, it acknowledges and applies the note to its next batch."
+ },
+ {
+  "id": "walk.09",
+  "beat": "conflict",
+  "text": "The Inspector scores every delivery. Two score two out of five and go back for a fix. One fix-up fails outright, so that contract is rejected: not merged, and not paid."
+ },
+ {
+  "id": "walk.10",
+  "beat": "inspector",
+  "text": "Now a hundred agents: the recorded scale run. The swarm shows every one of them, in crews of ten, each with its own real fork."
+ },
+ {
+  "id": "walk.11",
+  "beat": "scale",
+  "text": "The merge tree lights up as crews merge in parallel into crew lines, then into main. Nine conflicts, each fixed by the agent that caused it. A hundred agents, in a hundred and twenty-two seconds."
+ },
+ {
+  "id": "walk.12",
+  "beat": "exceptions",
+  "text": "A person cannot watch a hundred agents, and should not have to. Review starts with the exceptions: what needs you, what can be approved in bulk, and what the Inspector already rejected."
+ },
+ {
+  "id": "walk.13",
+  "beat": "visual",
+  "text": "Review is visual. Lens lays the new site over the old one, Blend fades between them, and X-ray shows what changed. This chapter is not good enough, so I reject it."
+ },
+ {
+  "id": "walk.14",
+  "beat": "revert",
+  "text": "Rejecting a chapter reverts exactly that work on main. Everything else stays merged."
+ },
+ {
+  "id": "walk.15",
+  "beat": "payouts",
+  "text": "Agents are paid only if their work merges, in test USDC over x402, simulated on this deploy. And each agent's reputation updates from what git actually recorded."
+ },
+ {
+  "id": "walk.16",
+  "beat": "hall",
+  "text": "That reputation is the Hall: a ranking built from outcomes, which is how the next goal picks its crew."
+ }
+]

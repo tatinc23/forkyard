@@ -1,0 +1,184 @@
+.nav {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px var(--gutter);
+  color: var(--chalk);
+}
+
+.mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.mark__tile {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  color: var(--hull);
+  font-family: var(--display);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: 1.2rem;
+  background: var(--chalk);
+  box-shadow: 0 4px 0 #8b9aa0;
+}
+
+.mark__name {
+  font-family: var(--display);
+  font-stretch: 112%;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.nav__links {
+  display: flex;
+  gap: clamp(14px, 2.6vw, 34px);
+  font-size: 1rem;
+}
+
+.nav__links a {
+  text-decoration: none;
+  text-underline-offset: 6px;
+}
+
+.nav__links a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--buoy);
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100svh;
+  overflow: hidden;
+  color: var(--chalk);
+  background:
+    repeating-linear-gradient(0deg, rgba(232, 236, 231, 0.045) 0 1px, transparent 1px 64px),
+    radial-gradient(90% 70% at 50% 100%, var(--hull-3), transparent 70%),
+    var(--hull);
+}
+
+.hero__stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: pan-y;
+}
+
+.hero__title {
+  grid-row: 1;
+  align-self: center;
+  padding: 0 var(--gutter);
+  font-size: clamp(3rem, 16vw, 14rem);
+}
+
+.js .hero__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.hero__base {
+  position: relative;
+  z-index: 2;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 14px 32px;
+  padding: 22px var(--gutter) 26px;
+  border-top: 5px solid var(--buoy);
+  background: var(--hull-2);
+}
+
+.hero__line {
+  max-width: 30ch;
+  font-size: clamp(1.15rem, 1.7vw, 1.5rem);
+  line-height: 1.3;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 12px;
+}
+
+.hint {
+  flex-basis: 100%;
+  color: var(--chalk-3);
+  font-style: italic;
+  font-size: 1rem;
+  max-height: 2em;
+  transition: opacity 0.4s, max-height 0.4s 0.2s;
+}
+
+.is-played .hint {
+  max-height: 0;
+  opacity: 0;
+}
+
+.controls button {
+  padding: 9px 20px 8px;
+  border: var(--edge) solid var(--chalk);
+  border-radius: 12px;
+  color: var(--chalk);
+  font-family: var(--display);
+  font-stretch: 112%;
+  font-weight: 700;
+  font-size: 0.95rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  color: var(--hull);
+  background: var(--buoy);
+  border-color: var(--buoy);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: min(100svh, 640px);
+  }
+
+  .mark__name {
+    display: none;
+  }
+
+  .nav__links {
+    gap: 12px;
+    font-size: 0.9rem;
+  }
+
+  .nav__links a:nth-child(n + 4) {
+    display: none;
+  }
+
+  .hero__base {
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+
+  .controls button {
+    padding: 7px 14px 6px;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ballast-type-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ballast Type Co.: a fictional type foundry site, static pages plus a small Cloudflare Worker.",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "vitest run",
+    "//": "slot:scripts"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.0"
+  }
+}

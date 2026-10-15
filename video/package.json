@@ -1,0 +1,14 @@
+{
+  "name": "gadgethub-explainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Coded explainer film for GadgetHub. Renders film.html frame-by-frame via headless Chrome into ffmpeg.",
+  "scripts": {
+    "render": "node render.mjs",
+    "stills": "node stills.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

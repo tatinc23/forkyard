@@ -1,0 +1,240 @@
+[
+ {
+  "t": 0.7,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.835,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.835,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.835,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.835,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 0.97,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.105,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.24,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.375,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.375,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.375,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.375,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 1.51,
+  "type": "tick",
+  "note": 86,
+  "label": "mosaic"
+ },
+ {
+  "t": 4.4,
+  "type": "bell",
+  "note": 66,
+  "label": "hero line"
+ },
+ {
+  "t": 5.5,
+  "type": "bell",
+  "note": 69,
+  "label": "hero line"
+ },
+ {
+  "t": 6.6,
+  "type": "bell",
+  "note": 74,
+  "label": "hero line"
+ },
+ {
+  "t": 9.4,
+  "type": "chime",
+  "label": "built on Cloudflare"
+ },
+ {
+  "t": 10.6,
+  "type": "check",
+  "label": "open source"
+ },
+ {
+  "t": 11.2,
+  "type": "bell",
+  "note": 62,
+  "label": "final"
+ }
+]

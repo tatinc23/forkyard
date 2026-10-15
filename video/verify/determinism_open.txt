@@ -1,0 +1,5 @@
+t=12.00  runA MD5=e7bfb5f82c6b9ee916fee22654777335  runB MD5=e7bfb5f82c6b9ee916fee22654777335  fresh-page MD5=e7bfb5f82c6b9ee916fee22654777335  IDENTICAL (order-independent)
+t=40.00  runA MD5=43765af8f70e26aa06ba655d49ca7422  runB MD5=43765af8f70e26aa06ba655d49ca7422  fresh-page MD5=43765af8f70e26aa06ba655d49ca7422  IDENTICAL (order-independent)
+t=52.00  runA MD5=c3946d58a15facb85b2ad22deec4eb6f  runB MD5=c3946d58a15facb85b2ad22deec4eb6f  fresh-page MD5=c3946d58a15facb85b2ad22deec4eb6f  IDENTICAL (order-independent)
+t=74.00  runA MD5=9fed735be4fef9732983f75c219bdb28  runB MD5=68ac16d87718e91af4710690bc371322  fresh-page MD5=9fed735be4fef9732983f75c219bdb28  DIFFERENT
+t=88.00  runA MD5=e6bf6015ae4cbb07b99d4693e255ec70  runB MD5=e6bf6015ae4cbb07b99d4693e255ec70  fresh-page MD5=e6bf6015ae4cbb07b99d4693e255ec70  IDENTICAL (order-independent)

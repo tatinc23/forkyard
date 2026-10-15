@@ -1,0 +1,3 @@
+out/seg_open.mp4 decode ok
+out/seg_hood.mp4 decode ok
+out/seg_close.mp4 decode ok

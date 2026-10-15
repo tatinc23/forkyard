@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Forkyard film</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+@import url('fonts/fonts.css');
+html,body{margin:0;background:#FBF7F0}
+canvas{display:block;width:1920px;height:1080px}
+/* when opened in a normal browser: scale to fit and play with the space bar */
+body.fit canvas{width:100vw;height:auto;aspect-ratio:16/9}
+#hud{position:fixed;left:12px;bottom:10px;font:13px monospace;color:#5E564B;display:none}
+body.fit #hud{display:block}
+</style></head>
+<body>
+<canvas id="c" width="1920" height="1080" aria-label="Forkyard film"></canvas>
+<div id="hud">space: play / pause · left/right: scrub 1s · R: reduced-motion · C: captions</div>
+<script src="tokens.js"></script>
+<script src="facts.js"></script>
+<script src="capchunk.js"></script>
+<script src="voline.js"></script>
+<script src="timeline.js"></script>
+<script src="film.js"></script>
+<script src="audio.js"></script>
+<script src="player.js"></script>
+</body></html>

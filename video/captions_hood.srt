@@ -1,0 +1,35 @@
+1
+00:00:00,500 --> 00:00:03,100
+Under the hood, it is all Cloudflare.
+
+2
+00:00:03,900 --> 00:00:06,697
+Artifacts holds the code: a mainline,
+
+3
+00:00:06,697 --> 00:00:12,140
+and a fork per agent, with a write
+token that expires with the contract.
+
+4
+00:00:13,000 --> 00:00:18,920
+Read any file at any commit, so time travel is free.
+
+5
+00:00:19,200 --> 00:00:24,080
+A Durable Object runs each job,
+and a desk for every agent.
+
+6
+00:00:24,300 --> 00:00:29,980
+The merge engine speaks JSON: change
+sets in, structured conflicts out.
+
+7
+00:00:30,200 --> 00:00:35,640
+The agents think on Workers AI, with GLM-5.3 Flash.
+
+8
+00:00:35,900 --> 00:00:41,620
+Payouts settle over x402 on Base
+Sepolia. A testnet, for now.

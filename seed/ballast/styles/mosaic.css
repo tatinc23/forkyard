@@ -1,0 +1,86 @@
+/* #mosaic: a 10 x 10 grid rendered from src/mosaic.js by src/mosaic-view.js.
+   Empty cells are outlined; a set cell takes the contributor's hue through --h. */
+.mosaic__count {
+  margin-top: 26px;
+  color: var(--buoy) !important;
+  font-family: var(--display);
+  font-stretch: 112%;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.mosaic__roll {
+  font-size: 0.95rem;
+  font-style: italic;
+  max-width: 40ch;
+}
+
+.mosaic__grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: clamp(3px, 0.7vw, 9px);
+  width: 100%;
+  max-width: 46rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mosaic__cell {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border: 1px solid rgba(232, 236, 231, 0.2);
+  border-radius: 22%;
+  color: rgba(232, 236, 231, 0.28);
+  font-size: clamp(0.5rem, 1.1vw, 0.75rem);
+  line-height: 1;
+  user-select: none;
+}
+
+.mosaic__cell.is-set {
+  border-color: transparent;
+  color: var(--hull);
+  background: hsl(var(--h, 40) 82% 62%);
+  box-shadow: 0 0.28em 0 hsl(var(--h, 40) 60% 34%);
+  margin-bottom: 0.28em;
+}
+
+.mosaic__glyph {
+  font-family: var(--display);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: clamp(1rem, 3.6vw, 2.4rem);
+  line-height: 1;
+}
+
+.mosaic__by {
+  position: absolute;
+  inset: auto 3px 3px;
+  overflow: hidden;
+  padding: 2px 3px;
+  border-radius: 4px;
+  color: var(--chalk);
+  font-family: var(--display);
+  font-size: 0.5rem;
+  line-height: 1;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: var(--hull);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.mosaic__cell.is-set:hover .mosaic__by {
+  opacity: 1;
+}
+
+@media (max-width: 520px) {
+  .mosaic__by {
+    display: none;
+  }
+}
+
+/* slot:mosaic-css */

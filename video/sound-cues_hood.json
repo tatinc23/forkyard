@@ -1,0 +1,177 @@
+[
+ {
+  "t": 0.5,
+  "type": "tick",
+  "note": 93,
+  "label": "chip drops"
+ },
+ {
+  "t": 0.75,
+  "type": "tick",
+  "note": 93,
+  "label": "chip drops"
+ },
+ {
+  "t": 1,
+  "type": "tick",
+  "note": 93,
+  "label": "chip drops"
+ },
+ {
+  "t": 1.25,
+  "type": "tick",
+  "note": 93,
+  "label": "chip drops"
+ },
+ {
+  "t": 1.5,
+  "type": "tick",
+  "note": 93,
+  "label": "chip drops"
+ },
+ {
+  "t": 3.9,
+  "type": "pop",
+  "note": 62,
+  "label": "stack chip 0"
+ },
+ {
+  "t": 4.4,
+  "type": "tick",
+  "note": 95,
+  "label": "fork"
+ },
+ {
+  "t": 4.75,
+  "type": "tick",
+  "note": 95,
+  "label": "fork"
+ },
+ {
+  "t": 5.1,
+  "type": "tick",
+  "note": 95,
+  "label": "fork"
+ },
+ {
+  "t": 5.45,
+  "type": "tick",
+  "note": 95,
+  "label": "fork"
+ },
+ {
+  "t": 5.8,
+  "type": "tick",
+  "note": 95,
+  "label": "fork"
+ },
+ {
+  "t": 13,
+  "type": "scan",
+  "label": "time travel"
+ },
+ {
+  "t": 19.2,
+  "type": "pop",
+  "note": 66,
+  "label": "stack chip 1"
+ },
+ {
+  "t": 19.9,
+  "type": "tick",
+  "note": 86,
+  "label": "desk"
+ },
+ {
+  "t": 20.2,
+  "type": "tick",
+  "note": 86,
+  "label": "desk"
+ },
+ {
+  "t": 20.5,
+  "type": "tick",
+  "note": 86,
+  "label": "desk"
+ },
+ {
+  "t": 20.8,
+  "type": "tick",
+  "note": 86,
+  "label": "desk"
+ },
+ {
+  "t": 21.1,
+  "type": "tick",
+  "note": 86,
+  "label": "desk"
+ },
+ {
+  "t": 24.3,
+  "type": "pop",
+  "note": 69,
+  "label": "stack chip 2"
+ },
+ {
+  "t": 24.6,
+  "type": "click",
+  "label": "change set"
+ },
+ {
+  "t": 27,
+  "type": "check",
+  "label": "merged"
+ },
+ {
+  "t": 28,
+  "type": "conflict",
+  "label": "conflict as data"
+ },
+ {
+  "t": 30.2,
+  "type": "pop",
+  "note": 71,
+  "label": "stack chip 3"
+ },
+ {
+  "t": 31.2,
+  "type": "pop",
+  "note": 69,
+  "label": "model"
+ },
+ {
+  "t": 35.9,
+  "type": "pop",
+  "note": 74,
+  "label": "stack chip 4"
+ },
+ {
+  "t": 38.7,
+  "type": "tink",
+  "note": 86,
+  "label": "payout"
+ },
+ {
+  "t": 39,
+  "type": "tink",
+  "note": 90,
+  "label": "payout"
+ },
+ {
+  "t": 39.3,
+  "type": "tink",
+  "note": 93,
+  "label": "payout"
+ },
+ {
+  "t": 39.6,
+  "type": "tink",
+  "note": 95,
+  "label": "payout"
+ },
+ {
+  "t": 39.9,
+  "type": "thunk",
+  "label": "rejected, not paid"
+ }
+]

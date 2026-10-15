@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ballast Type Co.</title>
+  <meta name="description" content="Ballast Type Co. is a fictional type foundry drawing heavy, honest letterforms for screens that need to hold their ground.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='8' width='56' height='52' rx='14' fill='%23808f93'/%3E%3Crect x='4' y='4' width='56' height='52' rx='14' fill='%23e8ece7'/%3E%3Cpath d='M22 16h14a9 9 0 0 1 4 17 10 10 0 0 1-5 9H22zm9 7v5h4a2.5 2.5 0 0 0 0-5zm0 12v5h5a2.5 2.5 0 0 0 0-5z' fill='%230e1a28'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/mosaic.css">
+  <link rel="stylesheet" href="styles/motion.css">
+  <!-- slot:head-extra -->
+  <!-- Classic scripts, in order. Not ES modules: sandboxed previews cannot fetch module scripts. -->
+  <script src="src/core.js" defer></script>
+  <script src="src/layout.js" defer></script>
+  <script src="src/geom.js" defer></script>
+  <script src="src/physics.js" defer></script>
+  <script src="src/render.js" defer></script>
+  <script src="src/hero.js" defer></script>
+  <script src="src/mosaic.js" defer></script>
+  <script src="src/mosaic-view.js" defer></script>
+  <script src="src/motion.js" defer></script>
+  <script src="src/main.js" defer></script>
+</head>
+<body>
+  <!-- slot:skip-link -->
+  <header class="nav">
+    <a class="mark" href="#top" aria-label="Ballast Type Co., home"><span class="mark__tile">B</span><span class="mark__name">Ballast Type Co.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <!-- slot:nav-links -->
+      <a href="#specimens">Specimens</a>
+      <a href="#waterfall">Waterfall</a>
+      <a href="#licensing">Licensing</a>
+      <a href="#journal">Journal</a>
+      <a href="#mosaic">Mosaic</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-h">
+      <h1 id="hero-h" class="hero__title">Ballast</h1>
+      <canvas id="stage" class="hero__stage" aria-hidden="true"></canvas>
+      <div class="hero__base">
+        <p class="hero__line">Heavy, honest letterforms for screens that need to hold their ground.</p>
+        <div class="controls">
+          <p class="hint">Grab a letter. Throw it.</p>
+          <button type="button" data-act="tidy">Set the type</button>
+          <button type="button" data-act="shake">Shake the case</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="specimens" class="sec" aria-labelledby="specimens-h">
+      <div class="sec__head">
+        <h2 id="specimens-h">Specimens</h2>
+        <p>Three families, drawn together so a headline, a column and a paragraph never argue.</p>
+      </div>
+      <div class="sec__body">
+        <div class="specimens">
+          <article class="specimen f-display">
+            <p class="specimen__glyph" aria-hidden="true">Ag</p>
+            <h3 class="specimen__name">Ballast Display</h3>
+            <p class="specimen__text">Expanded and black. Headlines that press the page down.</p>
+            <p class="specimen__meta">Variable weight and width</p>
+          </article>
+          <article class="specimen f-keel">
+            <p class="specimen__glyph" aria-hidden="true">Rg</p>
+            <h3 class="specimen__name">Ballast Keel</h3>
+            <p class="specimen__text">Condensed and tall. Loud in a narrow column.</p>
+            <p class="specimen__meta">Variable weight, condensed</p>
+          </article>
+          <article class="specimen f-text">
+            <p class="specimen__glyph" aria-hidden="true">Qa</p>
+            <h3 class="specimen__name">Ballast Text</h3>
+            <p class="specimen__text">A sturdy reading serif that stays calm at small sizes.</p>
+            <p class="specimen__meta">Variable weight and optical size</p>
+          </article>
+          <!-- slot:specimen-cards -->
+        </div>
+      </div>
+    </section>
+
+    <section id="waterfall" class="sec" aria-labelledby="waterfall-h">
+      <div class="sec__head">
+        <h2 id="waterfall-h">Waterfall</h2>
+        <p>One line, set at every size a reader will meet it.</p>
+      </div>
+      <div class="sec__body">
+        <div class="waterfall" data-empty="This slot is open. Set one line at five sizes."><!-- slot:waterfall --></div>
+      </div>
+    </section>
+
+    <section id="glyphs" class="sec" aria-labelledby="glyphs-h">
+      <div class="sec__head">
+        <h2 id="glyphs-h">Glyphs</h2>
+        <p>Every character in Ballast Display. Hover one to turn it over.</p>
+      </div>
+      <div class="sec__body">
+        <ul class="glyphs" aria-label="Glyph grid">
+          <li class="is-feature">R</li>
+          <li>A</li><li>B</li><li>C</li><li>D</li><li>E</li><li>F</li><li>G</li><li>H</li><li>I</li><li>J</li><li>K</li><li>L</li><li>M</li>
+          <li>N</li><li>O</li><li>P</li><li>Q</li><li>S</li><li>T</li><li>U</li><li>V</li><li>W</li><li>X</li><li>Y</li><li>Z</li>
+          <li class="is-wide">&amp;</li>
+          <li>a</li><li>b</li><li>c</li><li>d</li><li>e</li><li>f</li><li>g</li><li>h</li><li>i</li><li>j</li><li>k</li><li>l</li><li>m</li>
+          <li>n</li><li>o</li><li>p</li><li>q</li><li>r</li><li>s</li><li>t</li><li>u</li><li>v</li><li>w</li><li>x</li><li>y</li><li>z</li>
+          <li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li><li>9</li>
+          <li>?</li><li>!</li><li>@</li><li>#</li><li>%</li><li>&para;</li><li>&sect;</li>
+          <!-- slot:glyph-cells -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="pairing" class="sec" aria-labelledby="pairing-h">
+      <div class="sec__head">
+        <h2 id="pairing-h">Pairing tester</h2>
+        <p>Pick a headline face and a text face and read them together.</p>
+      </div>
+      <div class="sec__body">
+        <div class="pairing" data-empty="This slot is open. Add two pickers and a live sample."><!-- slot:pairing --></div>
+      </div>
+    </section>
+
+    <section id="licensing" class="sec" aria-labelledby="licensing-h">
+      <div class="sec__head">
+        <h2 id="licensing-h">Licensing</h2>
+        <p>Buy the use you need. Upgrade later and pay only the difference.</p>
+      </div>
+      <div class="sec__body">
+        <table class="licensing">
+          <thead>
+            <tr><th scope="col">License</th><th scope="col">Covers</th><th scope="col">Limit</th><th scope="col">Per family</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Desktop</th><td data-label="Covers">Print, packaging and design files</td><td data-label="Limit">Up to 5 seats</td><td data-label="Per family">$90</td></tr>
+            <tr><th scope="row">Web</th><td data-label="Covers">Self-hosted fonts on one site</td><td data-label="Limit">100,000 views a month</td><td data-label="Per family">$140</td></tr>
+            <tr><th scope="row">App and embed</th><td data-label="Covers">Fonts bundled in an app or device</td><td data-label="Limit">One product, unlimited installs</td><td data-label="Per family">$320</td></tr>
+            <!-- slot:licensing-rows -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="journal" class="sec" aria-labelledby="journal-h">
+      <div class="sec__head">
+        <h2 id="journal-h">Journal</h2>
+        <p>Notes from the drawing desk.</p>
+      </div>
+      <div class="sec__body">
+        <ul class="journal">
+          <li class="entry">
+            <time class="entry__date" datetime="2026-10-02">2 Oct 2026</time>
+            <div class="entry__main"><h3><a href="#journal">Why the ampersand leans</a></h3><p>A heavy ampersand wants to fall over. We tilted its stem two degrees and gave it a counterweight.</p></div>
+            <span class="entry__read">6 min read</span>
+          </li>
+          <li class="entry">
+            <time class="entry__date" datetime="2026-09-18">18 Sep 2026</time>
+            <div class="entry__main"><h3><a href="#journal">A lowercase g that survives 12 pixels</a></h3><p>Small sizes punish loops. Here is how the second bowl of the g was opened up, one pixel at a time.</p></div>
+            <span class="entry__read">9 min read</span>
+          </li>
+          <li class="entry">
+            <time class="entry__date" datetime="2026-09-03">3 Sep 2026</time>
+            <div class="entry__main"><h3><a href="#journal">Spacing black type</a></h3><p>The heavier the weight, the tighter the gaps look. Our rule of thumb for letting dark letters breathe.</p></div>
+            <span class="entry__read">5 min read</span>
+          </li>
+          <!-- slot:journal-entries -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="mosaic" class="sec sec--dark mosaic" aria-labelledby="mosaic-h">
+      <div class="sec__head">
+        <h2 id="mosaic-h">One hundred hands</h2>
+        <p>Each cell holds one glyph, set by one contributor. Open cells are waiting for a hand.</p>
+        <p class="mosaic__count" id="mosaic-count" aria-live="polite"></p>
+        <p class="mosaic__roll" id="mosaic-roll"></p>
+      </div>
+      <div class="sec__body">
+        <ol id="mosaic-grid" class="mosaic__grid" aria-label="One hundred glyph cells"></ol>
+      </div>
+    </section>
+    <!-- slot:sections-end -->
+  </main>
+
+  <footer class="foot">
+    <div class="foot__grid">
+      <div class="foot__lead">
+        <p>Heavy, honest letterforms. Drawn slowly, licensed plainly.</p>
+        <div class="signup"><!-- slot:newsletter --></div>
+      </div>
+      <nav class="foot__nav" aria-label="Foundry">
+        <a href="#specimens">Specimens</a>
+        <a href="#glyphs">Glyphs</a>
+        <a href="#pairing">Pairing tester</a>
+      </nav>
+      <nav class="foot__nav" aria-label="Studio">
+        <a href="#licensing">Licensing</a>
+        <a href="#journal">Journal</a>
+        <a href="#mosaic">Mosaic</a>
+      </nav>
+    </div>
+    <p class="foot__note">A fictional foundry. Demo repository for Forkyard.</p>
+    <p class="foot__word" aria-hidden="true">Ballast</p>
+    <!-- slot:footer -->
+  </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local dev (gitignored). Never commit real keys.
+# Production: wrangler secret put BUYER_PRIVATE_KEY  (see docs/payments.md)
+BUYER_PRIVATE_KEY=REPLACE_ME_0x_64_hex_chars_TESTNET_ONLY
+PAYMENTS_MODE=simulate
+X402_FACILITATOR_URL=https://x402.org/facilitator
+PUBLIC_BASE_URL=REPLACE_ME_https://your-worker.workers.dev
+DEMO_KEY=REPLACE_ME_DEMO_KEY

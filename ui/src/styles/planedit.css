@@ -1,0 +1,80 @@
+/* Plan editor + Foreman copilot */
+.pe-mode { margin-top: 12px; padding: 9px 12px; border-radius: var(--r-sm, 10px); background: var(--warn-soft); color: #4d3000; font-size: 14px; max-width: 70ch; }
+.pe-mode.ok { background: var(--bg-2); color: var(--ink-2); }
+.pe-grid { display: grid; grid-template-columns: minmax(0, 1fr) 350px; gap: 24px; align-items: start; margin-top: 8px; }
+.pe-main { min-width: 0; }
+.pe-cards { margin-top: 12px; }
+.pe-brief { font-size: 14px; color: var(--ink-2); }
+.pe-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; }
+.pe-role { display: grid; gap: 2px; font-size: 12px; color: var(--ink-3); }
+.pe-card select, .pe-add select, .pe-card input, .pe-card textarea, .pe-add input {
+	font: inherit; font-size: 14px; color: var(--ink); background: #fff; border: 1.5px solid var(--line-2); border-radius: 8px; padding: 6px 9px; min-width: 0;
+}
+.pe-card input:focus-visible, .pe-card textarea:focus-visible, .pe-card select:focus-visible, .pe-add select:focus-visible { outline: 3px solid var(--orange); outline-offset: 1px; }
+.btn.sm { padding: 6px 12px; font-size: 13.5px; min-height: 0; }
+.btn.danger { color: var(--bad); }
+.pe-picker { overflow: hidden; }
+.pe-picker-h { font-size: 13px; color: var(--ink-3); margin: 4px 0 6px; }
+.pe-picker ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.pe-opt { width: 100%; display: flex; gap: 10px; align-items: center; text-align: left; padding: 8px 10px; border-radius: 10px; background: var(--paper-2); box-shadow: inset 0 0 0 1px var(--line); font: inherit; color: inherit; cursor: pointer; }
+.pe-opt:hover:not(:disabled) { box-shadow: inset 0 0 0 2px var(--ink); }
+.pe-opt.on { box-shadow: inset 0 0 0 2px var(--orange); background: #fff4e3; }
+.pe-opt:disabled { opacity: 0.55; cursor: not-allowed; }
+.pe-opt-t { display: grid; flex: 1; min-width: 0; font-size: 13px; color: var(--ink-2); }
+.pe-opt-t strong { font-size: 15px; color: var(--ink); display: flex; align-items: center; gap: 6px; }
+.pe-opt-m { color: var(--ink-3); font-size: 12.5px; }
+.pe-opt-w { text-align: right; }
+.pe-opt-w strong { display: block; font-size: 18px; }
+.pe-opt-w small { font-size: 11.5px; color: var(--ink-3); }
+.pe-sec { display: grid; gap: 6px; margin-top: 6px; }
+.pe-sec h4 { font-size: 14px; margin: 0; display: flex; gap: 8px; align-items: baseline; }
+.pe-sec h4 small { font-weight: 500; color: var(--ink-3); font-size: 12.5px; }
+.pe-tasks { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.pe-tasks li { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pe-tasks li input { flex: 1 1 220px; }
+.pe-tasks li textarea { flex: 1 1 100%; resize: vertical; }
+.pe-task-ro { font-size: 14.5px; color: var(--ink-2); }
+.pe-task-btns { display: inline-flex; gap: 4px; }
+.pe-ic { min-width: 30px; height: 30px; padding: 0 7px; border-radius: 8px; background: var(--paper-2); box-shadow: inset 0 0 0 1px var(--line); font: inherit; font-size: 13px; cursor: pointer; color: var(--ink-2); }
+.pe-ic:hover:not(:disabled) { box-shadow: inset 0 0 0 1.5px var(--ink); }
+.pe-ic:disabled { opacity: 0.35; cursor: default; }
+.pe-ic.danger { color: var(--bad); }
+.pe-link { justify-self: start; background: none; border: 0; padding: 4px 0; font: inherit; font-size: 13.5px; font-weight: 650; color: #9a4d00; text-decoration: underline; cursor: pointer; }
+.pe-chip { display: inline-flex; align-items: center; gap: 6px; }
+.pe-x { border: 0; background: none; cursor: pointer; color: var(--ink-3); font-size: 16px; line-height: 1; padding: 0 2px; }
+.pe-x:hover { color: var(--bad); }
+.pe-leases { margin-top: 0; }
+.pe-lease-add { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pe-lease-add input { flex: 1 1 180px; }
+.pe-err { flex: 1 1 100%; font-size: 12.5px; color: var(--bad); }
+.pe-empty { font-size: 13px; color: var(--ink-3); }
+.pe-add { margin-top: 14px; padding: 14px 16px; border: 1.5px dashed var(--line-2); border-radius: var(--r-md); }
+.pe-add h3 { font-size: 17px; margin: 0 0 8px; }
+.pe-add-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.pe-add-row label { display: grid; gap: 2px; font-size: 12px; color: var(--ink-3); }
+
+.pe-foreman { position: sticky; top: 72px; background: var(--paper); border: 1.5px solid var(--ink); border-radius: var(--r-md); box-shadow: 0 6px 0 var(--orange); display: grid; gap: 10px; padding: 14px; max-height: calc(100vh - 90px); overflow: hidden auto; }
+.pe-foreman header { display: flex; gap: 10px; align-items: center; }
+.pe-foreman header strong { display: block; line-height: 1.1; }
+.pe-foreman header span { font-size: 12.5px; color: var(--ink-3); }
+.pe-log { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; max-height: 260px; overflow-y: auto; }
+.pe-log li { background: var(--bg-2); border-radius: 12px 12px 12px 3px; padding: 9px 12px; font-size: 14px; color: var(--ink-2); line-height: 1.4; }
+.pe-log li:last-child { background: #fff4e3; color: var(--ink); }
+.pe-issues { display: grid; gap: 8px; }
+.pe-issue { padding: 10px 12px; border-radius: 10px; background: var(--warn-soft); box-shadow: inset 4px 0 0 #d9a21c; display: grid; gap: 8px; overflow: hidden; }
+.pe-issue.error { background: var(--bad-soft); box-shadow: inset 4px 0 0 var(--bad); }
+.pe-issue p { margin: 0; font-size: 14px; color: var(--ink); line-height: 1.4; }
+.pe-issue-btns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.pe-clear { margin: 0; font-size: 13.5px; color: var(--ink-3); }
+.pe-caret { display: inline-block; width: 7px; height: 14px; margin-left: 2px; vertical-align: -2px; background: var(--orange); animation: pe-blink 0.9s steps(2) infinite; }
+.pe-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+@keyframes pe-blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .pe-caret { animation: none; } }
+@media (max-width: 960px) {
+	.pe-grid { grid-template-columns: 1fr; }
+	.pe-foreman { position: static; max-height: none; order: -1; }
+}
+
+.pe .pe-cards { grid-template-columns: minmax(0, 1fr); }
+.pe .pe-card { max-width: none; }
+.pe .pe-card p { -webkit-line-clamp: unset; display: block; }

@@ -1,0 +1,2 @@
+t=8.00  runA MD5=62338549f226d0f5d92def255fa784c9  runB MD5=62338549f226d0f5d92def255fa784c9  fresh-page MD5=62338549f226d0f5d92def255fa784c9  IDENTICAL (order-independent)
+t=26.00  runA MD5=6c504cd0c71e1aaaa1a5772a1f521fbd  runB MD5=6c504cd0c71e1aaaa1a5772a1f521fbd  fresh-page MD5=6c504cd0c71e1aaaa1a5772a1f521fbd  IDENTICAL (order-independent)

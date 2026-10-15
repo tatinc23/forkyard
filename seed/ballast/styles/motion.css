@@ -1,0 +1,26 @@
+/* Motion crew: scroll reveals, hover interactions, cursor effect. */
+
+/* slot:motion-reveal-css */
+/* slot:motion-hover-css */
+/* slot:motion-cursor-css */
+/* slot:motion-nav-css */
+
+/* Reduced-motion path. The hero draws one settled still frame and hides its play controls. */
+@media (prefers-reduced-motion: reduce) {
+  .controls,
+  .hint {
+    display: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .specimen__glyph,
+  .glyphs li,
+  .entry h3 a {
+    transition: none;
+  }
+
+  /* slot:motion-reduced-css */
+}

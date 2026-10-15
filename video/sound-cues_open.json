@@ -1,0 +1,1502 @@
+[
+ {
+  "t": 0.911,
+  "type": "tock",
+  "note": 50,
+  "label": "human commit lands"
+ },
+ {
+  "t": 1.822,
+  "type": "tock",
+  "note": 50,
+  "label": "human commit lands"
+ },
+ {
+  "t": 2.733,
+  "type": "tock",
+  "note": 50,
+  "label": "human commit lands"
+ },
+ {
+  "t": 4.726,
+  "type": "thud",
+  "label": "four agents collide on one repo"
+ },
+ {
+  "t": 6.093,
+  "type": "thud",
+  "label": "four agents collide on one repo"
+ },
+ {
+  "t": 7.346,
+  "type": "thud",
+  "label": "four agents collide on one repo"
+ },
+ {
+  "t": 8.2,
+  "type": "swoosh",
+  "label": "repo splits into forks"
+ },
+ {
+  "t": 16.7,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 16.875,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 16.938,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 17,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 17.2,
+  "type": "tick",
+  "note": 93,
+  "label": "measured number"
+ },
+ {
+  "t": 17.325,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 17.4,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 17.487,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 17.712,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 17.775,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 17.925,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 18.075,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 18.275,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 18.512,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 18.563,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 18.712,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 18.8,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 19.05,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 19.1,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 19.163,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 19.462,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 19.5,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 19.662,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 20.075,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 20.087,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 20.112,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 20.2,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 20.475,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 20.562,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 20.612,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 20.837,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 21.063,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 21.075,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 21.475,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 21.6,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 21.637,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 21.675,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 21.85,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 21.95,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 22.175,
+  "type": "task",
+  "note": 54,
+  "label": "task commit lands in fork 1"
+ },
+ {
+  "t": 22.212,
+  "type": "task",
+  "note": 50,
+  "label": "task commit lands in fork 0"
+ },
+ {
+  "t": 22.462,
+  "type": "task",
+  "note": 57,
+  "label": "task commit lands in fork 2"
+ },
+ {
+  "t": 22.637,
+  "type": "task",
+  "note": 59,
+  "label": "task commit lands in fork 3"
+ },
+ {
+  "t": 22.862,
+  "type": "task",
+  "note": 62,
+  "label": "task commit lands in fork 4"
+ },
+ {
+  "t": 24.436,
+  "type": "whoosh",
+  "label": "delivery lifts"
+ },
+ {
+  "t": 24.908,
+  "type": "whoosh",
+  "label": "delivery lifts"
+ },
+ {
+  "t": 25.379,
+  "type": "whoosh",
+  "label": "delivery lifts"
+ },
+ {
+  "t": 25.851,
+  "type": "whoosh",
+  "label": "delivery lifts"
+ },
+ {
+  "t": 26.323,
+  "type": "whoosh",
+  "label": "delivery lifts"
+ },
+ {
+  "t": 26.559,
+  "type": "tock",
+  "note": 50,
+  "label": "merged into main"
+ },
+ {
+  "t": 27.031,
+  "type": "tock",
+  "note": 50,
+  "label": "merged into main"
+ },
+ {
+  "t": 27.503,
+  "type": "tock",
+  "note": 50,
+  "label": "merged into main"
+ },
+ {
+  "t": 27.974,
+  "type": "tock",
+  "note": 50,
+  "label": "merged into main"
+ },
+ {
+  "t": 28.446,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 31.867,
+  "type": "rise",
+  "label": "agent re-delivers"
+ },
+ {
+  "t": 33.282,
+  "type": "tock",
+  "note": 50,
+  "label": "the cause re-delivers and merges"
+ },
+ {
+  "t": 33.4,
+  "type": "check",
+  "label": "merged check"
+ },
+ {
+  "t": 34.9,
+  "type": "swoosh",
+  "soft": 1,
+  "label": "slider drag starts"
+ },
+ {
+  "t": 35.36,
+  "type": "tick",
+  "note": 94,
+  "label": "a crew appears"
+ },
+ {
+  "t": 35.74,
+  "type": "tick",
+  "note": 95,
+  "label": "a crew appears"
+ },
+ {
+  "t": 36.02,
+  "type": "tick",
+  "note": 93,
+  "label": "a crew appears"
+ },
+ {
+  "t": 36.26,
+  "type": "tick",
+  "note": 94,
+  "label": "a crew appears"
+ },
+ {
+  "t": 36.5,
+  "type": "tick",
+  "note": 95,
+  "label": "a crew appears"
+ },
+ {
+  "t": 36.74,
+  "type": "tick",
+  "note": 93,
+  "label": "a crew appears"
+ },
+ {
+  "t": 36.98,
+  "type": "tick",
+  "note": 94,
+  "label": "a crew appears"
+ },
+ {
+  "t": 37.24,
+  "type": "tick",
+  "note": 95,
+  "label": "a crew appears"
+ },
+ {
+  "t": 37.54,
+  "type": "tick",
+  "note": 93,
+  "label": "a crew appears"
+ },
+ {
+  "t": 38.3,
+  "type": "chime",
+  "label": "100 agents"
+ },
+ {
+  "t": 40.568,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.599,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.617,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.691,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.754,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.849,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.884,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.911,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.964,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 40.997,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.117,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.14,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.214,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.286,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.3,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.4,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.444,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.455,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.472,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.574,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 41.854,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.09,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.188,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.2,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.2,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.226,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.235,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.251,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.594,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.606,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.632,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.695,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.746,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.751,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.813,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.837,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.852,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.853,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.893,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.959,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 42.98,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.046,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.157,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.311,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.321,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.324,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.384,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.423,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.684,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.852,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.902,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.948,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 43.98,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.01,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.035,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.091,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.312,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.387,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.516,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.54,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.697,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.836,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.879,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.91,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.991,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.996,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 44.997,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.027,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.087,
+  "type": "task",
+  "note": 50,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.11,
+  "type": "task",
+  "note": 59,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.446,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.486,
+  "type": "task",
+  "note": 57,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.489,
+  "type": "task",
+  "note": 62,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.507,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 45.588,
+  "type": "task",
+  "note": 54,
+  "label": "task commit in a fork"
+ },
+ {
+  "t": 47.5,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 48.05,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 48.6,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 49.15,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 49.7,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 50.25,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 50.8,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 51.35,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 51.9,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 52.45,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 53,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 53.55,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 53.84,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 53.9,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 53.96,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.02,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.08,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.1,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 54.14,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.2,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.26,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.32,
+  "type": "conflict",
+  "label": "conflict"
+ },
+ {
+  "t": 54.63,
+  "type": "tock",
+  "note": 50,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 54.65,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 55.04,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.1,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.16,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.2,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 55.22,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.28,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.34,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.4,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.46,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.52,
+  "type": "rise",
+  "label": "returned to the cause"
+ },
+ {
+  "t": 55.75,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 56.3,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 56.85,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 57.4,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 57.95,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 58.24,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.3,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.36,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.42,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.48,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.5,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 58.54,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.59,
+  "type": "tock",
+  "note": 54,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 58.6,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.65,
+  "type": "tock",
+  "note": 57,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 58.66,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.71,
+  "type": "tock",
+  "note": 59,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 58.72,
+  "type": "check",
+  "label": "re-delivered"
+ },
+ {
+  "t": 58.77,
+  "type": "tock",
+  "note": 62,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 58.83,
+  "type": "tock",
+  "note": 50,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 58.89,
+  "type": "tock",
+  "note": 54,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 58.95,
+  "type": "tock",
+  "note": 57,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 59.01,
+  "type": "tock",
+  "note": 59,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 59.05,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 59.07,
+  "type": "tock",
+  "note": 62,
+  "label": "crew line merges into main"
+ },
+ {
+  "t": 59.6,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 59.6,
+  "type": "chime",
+  "label": "all merged into main"
+ },
+ {
+  "t": 60.15,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 60.7,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 61.25,
+  "type": "tick",
+  "note": 86,
+  "label": "the single queue lands one"
+ },
+ {
+  "t": 61.6,
+  "type": "tink",
+  "note": 86,
+  "label": "next level of ten"
+ },
+ {
+  "t": 62.7,
+  "type": "check",
+  "label": "we ran this level"
+ },
+ {
+  "t": 62.75,
+  "type": "tink",
+  "note": 90,
+  "label": "next level of ten"
+ },
+ {
+  "t": 63.9,
+  "type": "tink",
+  "note": 93,
+  "label": "next level of ten"
+ },
+ {
+  "t": 65.05,
+  "type": "tink",
+  "note": 95,
+  "label": "next level of ten"
+ },
+ {
+  "t": 66.2,
+  "type": "tink",
+  "note": 98,
+  "label": "next level of ten"
+ },
+ {
+  "t": 70.6,
+  "type": "swoosh",
+  "soft": 1,
+  "label": "grid returns"
+ },
+ {
+  "t": 73.8,
+  "type": "thud",
+  "label": "No."
+ },
+ {
+  "t": 77,
+  "type": "swoosh",
+  "label": "97 approved, the rest flagged"
+ },
+ {
+  "t": 77.4,
+  "type": "pop",
+  "note": 62,
+  "label": "needs you"
+ },
+ {
+  "t": 77.9,
+  "type": "pop",
+  "note": 66,
+  "label": "needs you"
+ },
+ {
+  "t": 78.4,
+  "type": "pop",
+  "note": 69,
+  "label": "needs you"
+ },
+ {
+  "t": 79.4,
+  "type": "check",
+  "label": "approved automatically"
+ },
+ {
+  "t": 82.836,
+  "type": "scan",
+  "label": "lens moves to chapter 1"
+ },
+ {
+  "t": 84.144,
+  "type": "click",
+  "label": "chapter approved"
+ },
+ {
+  "t": 84.198,
+  "type": "check",
+  "label": "approved check"
+ },
+ {
+  "t": 84.471,
+  "type": "scan",
+  "label": "lens moves to chapter 2"
+ },
+ {
+  "t": 85.778,
+  "type": "click",
+  "label": "chapter approved"
+ },
+ {
+  "t": 85.833,
+  "type": "check",
+  "label": "approved check"
+ },
+ {
+  "t": 86.105,
+  "type": "scan",
+  "label": "lens moves to chapter 3"
+ },
+ {
+  "t": 87.086,
+  "type": "thunk",
+  "label": "chapter rejected"
+ },
+ {
+  "t": 87.304,
+  "type": "swoosh",
+  "soft": 1,
+  "label": "rejected change reverted"
+ },
+ {
+  "t": 88.394,
+  "type": "scan",
+  "label": "lens moves to chapter 4"
+ },
+ {
+  "t": 89.374,
+  "type": "click",
+  "label": "chapter approved"
+ },
+ {
+  "t": 89.429,
+  "type": "check",
+  "label": "approved check"
+ },
+ {
+  "t": 89.538,
+  "type": "scan",
+  "label": "lens moves to chapter 5"
+ },
+ {
+  "t": 90.628,
+  "type": "click",
+  "label": "chapter approved"
+ },
+ {
+  "t": 90.682,
+  "type": "check",
+  "label": "approved check"
+ },
+ {
+  "t": 92.558,
+  "type": "click",
+  "label": "human approves and pays"
+ },
+ {
+  "t": 92.711,
+  "type": "chime",
+  "label": "approval chime"
+ },
+ {
+  "t": 94.151,
+  "type": "tink",
+  "note": 86,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.304,
+  "type": "tink",
+  "note": 90,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.432,
+  "type": "tink",
+  "note": 86,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.457,
+  "type": "tink",
+  "note": 93,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.585,
+  "type": "tink",
+  "note": 90,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.61,
+  "type": "tink",
+  "note": 95,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.712,
+  "type": "tink",
+  "note": 86,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.738,
+  "type": "tink",
+  "note": 93,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.865,
+  "type": "tink",
+  "note": 90,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 94.891,
+  "type": "tink",
+  "note": 95,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 95.018,
+  "type": "tink",
+  "note": 93,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 95.108,
+  "type": "thunk",
+  "label": "token expires"
+ },
+ {
+  "t": 95.171,
+  "type": "tink",
+  "note": 95,
+  "label": "x402 payment arrives"
+ },
+ {
+  "t": 95.171,
+  "type": "thunk",
+  "label": "token expires"
+ },
+ {
+  "t": 95.235,
+  "type": "thunk",
+  "label": "token expires"
+ },
+ {
+  "t": 95.299,
+  "type": "thunk",
+  "label": "token expires"
+ },
+ {
+  "t": 95.362,
+  "type": "thunk",
+  "label": "token expires"
+ }
+]

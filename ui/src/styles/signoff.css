@@ -1,0 +1,257 @@
+.signoff {
+	background: var(--paper);
+	border-top: 1.5px solid var(--ink);
+	padding-block: clamp(28px, 4vw, 56px) 80px;
+	scroll-margin-top: calc(var(--top-h) + 56px);
+}
+.so-head {
+	margin-bottom: 4px;
+}
+.so-grid {
+	display: grid;
+	gap: 20px;
+	align-items: start;
+}
+.so-side {
+	order: -1;
+}
+@media (min-width: 1100px) {
+	.so-side {
+		order: 0;
+	}
+}
+.so-head h2 {
+	font-size: clamp(28px, 4.4vw, 48px);
+	letter-spacing: -0.03em;
+	line-height: 1.02;
+	font-variation-settings: "wdth" 88, "opsz" 72;
+	max-width: 24ch;
+}
+.so-sub {
+	margin-top: 10px;
+	color: var(--ink-2);
+	max-width: 56ch;
+}
+.so-rows {
+	list-style: none;
+	padding: 0;
+	margin: 22px 0 0;
+	display: grid;
+	gap: 10px;
+}
+.so-row {
+	display: grid;
+	gap: 12px;
+	padding: 14px;
+	border: 1px solid var(--line);
+	border-radius: var(--r-md);
+	background: #fff;
+	transition: box-shadow var(--dur-3), border-color var(--dur-3);
+}
+.so-row.got-paid {
+	border-color: var(--ok);
+	box-shadow: 0 0 0 3px var(--ok-soft);
+}
+.so-who {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+.so-who strong {
+	display: block;
+	font-size: 17px;
+	line-height: 1.15;
+}
+.so-who span {
+	font-size: 13px;
+	color: var(--ink-3);
+}
+.so-diff {
+	display: grid;
+	gap: 6px;
+}
+.df {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 13px;
+	flex-wrap: wrap;
+}
+.df .path {
+	font-size: 12.5px;
+	min-width: 96px;
+}
+.chip.kind {
+	height: 20px;
+	font-size: 11.5px;
+	font-weight: 600;
+}
+.add {
+	color: var(--ok);
+	font-weight: 650;
+}
+.del {
+	color: var(--bad);
+	font-weight: 650;
+}
+.dbar {
+	display: flex;
+	width: 64px;
+	height: 6px;
+	gap: 1px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.dbar .a {
+	background: var(--ok);
+}
+.dbar .r {
+	background: var(--bad);
+}
+.so-none {
+	color: var(--ink-3);
+	font-size: 13px;
+}
+.so-review {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 13.5px;
+	font-weight: 600;
+}
+.so-review .pips {
+	padding: 0;
+	color: var(--ink);
+}
+.receipt {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px 12px;
+	border-radius: var(--r-sm);
+	background: var(--ok-soft);
+	color: #0d4f2b;
+}
+.receipt strong {
+	font-size: 16px;
+}
+.tx {
+	font-size: 12.5px;
+	color: #0d4f2b;
+	font-weight: 600;
+}
+.receipt .chip {
+	background: #fff;
+}
+
+.so-side {
+	display: grid;
+	gap: 16px;
+	align-content: start;
+}
+.escrow {
+	background: var(--ink);
+	color: #fff;
+	border-radius: var(--r-lg);
+	padding: 18px;
+	box-shadow: 0 8px 0 #000;
+}
+.escrow-l {
+	font-size: 13.5px;
+	color: #c9d2e0;
+	font-weight: 600;
+}
+.escrow-n {
+	font-size: clamp(38px, 5vw, 54px);
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	line-height: 1.05;
+	font-variation-settings: "wdth" 90;
+}
+.escrow-n small {
+	font-size: 15px;
+	font-weight: 600;
+	color: #c9d2e0;
+	letter-spacing: 0;
+}
+.escrow dl {
+	margin: 14px 0 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px 16px;
+}
+.escrow dt {
+	font-size: 12.5px;
+	color: #c9d2e0;
+}
+.escrow dd {
+	margin: 0;
+	font-weight: 650;
+	font-size: 16px;
+}
+.escrow .add {
+	color: #7fd8a4;
+}
+.escrow .del {
+	color: #ff9f94;
+}
+.so-cta {
+	display: grid;
+	gap: 10px;
+}
+.so-cta .btn {
+	width: 100%;
+}
+.standings {
+	background: #fff;
+	border: 1px solid var(--line);
+	border-radius: var(--r-md);
+	padding: 14px;
+}
+.standings h3 {
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.standings ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 6px;
+}
+.standings li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 14.5px;
+}
+.standings li .rank {
+	width: 18px;
+	color: var(--ink-3);
+	font-weight: 700;
+}
+.standings li .rep {
+	margin-left: auto;
+	font-weight: 700;
+}
+
+@media (min-width: 800px) {
+	.so-row {
+		grid-template-columns: minmax(180px, 1fr) minmax(220px, 1.3fr) auto;
+		align-items: center;
+	}
+	.so-row .receipt {
+		grid-column: 1 / -1;
+	}
+}
+@media (min-width: 1100px) {
+	.so-grid {
+		grid-template-columns: minmax(0, 1fr) 360px;
+		gap: 40px;
+	}
+	.so-side {
+		position: sticky;
+		top: calc(var(--top-h) + 76px);
+	}
+}

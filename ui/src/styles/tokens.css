@@ -1,0 +1,75 @@
+:root {
+	/* surfaces: cool concrete, not cream */
+	--bg: #e6e9ec;
+	--bg-2: #dce0e5;
+	--paper: #f7f8f9;
+	--paper-2: #eef0f3;
+	--line: #c4cad2;
+	--line-2: #aab2bd;
+
+	/* ink */
+	--ink: #0f1826;
+	--ink-2: #36415a;
+	--ink-3: #535e72; /* 5.2:1 on --bg */
+
+	/* structure */
+	--steel: #1b2638;
+	--steel-2: #2a3850;
+
+	/* the one brand accent */
+	--orange: #f6821f;
+	--orange-ink: #9a3d00; /* orange as text on paper, 6.3:1 */
+	--orange-soft: #fde8d6;
+
+	/* signal colours (diffs, conflicts, scores) */
+	--ok: #17703f;
+	--ok-soft: #dcf0e4;
+	--bad: #b42318;
+	--bad-soft: #fbe3e0;
+	--warn: #8a5400;
+	--warn-soft: #fbecc8;
+
+	/* code window */
+	--code-bg: #0d1522;
+	--code-bg-2: #131d2e;
+	--code-ink: #d6dde8;
+	--code-dim: #8a97ab;
+	--tk-cm: #8190a6;
+	--tk-st: #ffc58a;
+	--tk-kw: #8fd0ff;
+	--tk-fn: #a8e6b8;
+	--tk-nu: #f0abfc;
+	--tk-pr: #ffd68f;
+
+	/* type */
+	--font: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+	--mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+	/* shape */
+	--r-xs: 3px;
+	--r-sm: 6px;
+	--r-md: 10px;
+	--r-lg: 16px;
+
+	/* brick dimensions (same everywhere so layout animation never distorts) */
+	--blk-w: 88px;
+	--blk-h: 26px;
+
+	/* space */
+	--gutter: 16px;
+	--maxw: 1360px;
+
+	/* motion: one ease family, three durations */
+	--ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+	--ease-snap: cubic-bezier(0.2, 0.9, 0.1, 1.04);
+	--ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+	--dur-1: 140ms;
+	--dur-2: 280ms;
+	--dur-3: 520ms;
+}
+
+@media (min-width: 900px) {
+	:root {
+		--gutter: 32px;
+	}
+}

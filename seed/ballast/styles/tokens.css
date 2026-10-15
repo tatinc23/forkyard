@@ -1,0 +1,23 @@
+:root {
+  /* Palette: hull paint, chalk, and the colours of a harbour */
+  --hull: #0e1a28;
+  --hull-2: #16273a;
+  --hull-3: #223a54;
+  --chalk: #e8ece7;
+  --chalk-2: #d6ddd6;
+  --chalk-3: #c2cbc3;
+  --buoy: #f4c430;
+  --minium: #e4482a;
+  --tide: #7fb2d6;
+  --soft: #4d5b68;
+
+  /* Type */
+  --display: "Archivo", "Arial Black", system-ui, sans-serif;
+  --text: "Newsreader", Georgia, "Times New Roman", serif;
+
+  /* Layout */
+  --gutter: clamp(18px, 4.4vw, 64px);
+  --radius: 22px;
+  --edge: 1.5px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
