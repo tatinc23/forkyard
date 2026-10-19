@@ -6,6 +6,7 @@ import { hall, job, type Env } from "./env";
 import { x402Routes } from "./payments";
 import { mcpHandler } from "./mcp";
 import { scaleParams } from "./scale/plan";
+import { primitiveRoutes } from "./primitive/inbound";
 
 export { Hall } from "./do/hall";
 export { Job } from "./do/job";
@@ -209,6 +210,9 @@ app.get("/preview/:id/*", async (c) => {
 	}
 });
 app.get("/preview/:id", (c) => c.redirect(`/preview/${c.req.param("id")}/`));
+
+// primitiveOS: inbound email -> job (signature verified, sender allowlisted). See docs/PRIMITIVEOS.md.
+app.route("/", primitiveRoutes() as never);
 
 app.route("/", x402Routes() as never);
 
