@@ -15,6 +15,7 @@ import { FilmModal } from "./components/FilmModal";
 import { PostJob } from "./components/PostJob";
 import { Docs } from "./components/Docs";
 import { Lend, loadListed } from "./components/Lend";
+import { PrimitiveStrip } from "./components/PrimitiveStrip";
 import { genAgents } from "./lib/agents";
 import { listings, type GadgetListing } from "./data/gadgets";
 import { useRoute } from "./lib/route";
@@ -84,6 +85,7 @@ export function App() {
 				onTerms={() => setTermsOpen(true)}
 				onFilm={() => setFilmOpen(true)}
 			/>
+			{screen === "page" && <PrimitiveStrip />}
 			<div id="main" className="screen">
 				<AnimatePresence mode="wait" initial={false}>
 					<motion.div key={screen === "page" ? `page-${route.page}` : screen} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.32, ease: [0.16, 1, 0.3, 1] }}>
