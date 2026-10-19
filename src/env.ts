@@ -18,6 +18,10 @@ export interface Env {
 	X402_FACILITATOR_URL?: string;
 	PUBLIC_BASE_URL?: string;
 	PAYMENTS_SELF?: Fetcher;
+	/** Primitive (secrets): API key for replies, webhook signing secret, comma-separated sender allowlist. */
+	PRIMITIVE_API_KEY?: string;
+	PRIMITIVE_WEBHOOK_SECRET?: string;
+	PRIMITIVE_ALLOWED_SENDERS?: string;
 }
 
 export const hall = (env: Env) => env.HALL.get(env.HALL.idFromName("hall"));
