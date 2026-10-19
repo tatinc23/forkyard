@@ -8,6 +8,10 @@ export type Stage = "hall" | "plan" | "floor" | "signoff";
 /** What the top rail needs to know about the current run. `null` means no run is open. */
 export type RailJob = { status: JobStatus; source: Source; reviewReady: boolean } | null;
 
+// White-label point: change these two strings to rebrand the whole rail.
+const BRAND = "Primitive";
+const ENGINE = "ForkYard engine";
+
 const STATUS_LABEL: Record<JobStatus, string> = {
 	planning: "Planning",
 	awaiting_budget: "Budget check",
@@ -88,9 +92,12 @@ export function Header({ page, onJobScreen, job, source, fellBack, connected, pa
 	return (
 		<header className="topbar" ref={bar}>
 			<div className="wrap fyr">
-				<a className="brand" href={hrefFor("repo")} onClick={(e) => (e.preventDefault(), pick(() => onNav("repo"))())} aria-label="Forkyard, home">
+				<a className="brand" href={hrefFor("repo")} onClick={(e) => (e.preventDefault(), pick(() => onNav("repo"))())} aria-label={`${BRAND}, home. Powered by ${ENGINE}`}>
 					<Logo />
-					<span>Forkyard</span>
+					<span>
+						{BRAND}
+						<small style={{ display: "block", fontSize: "0.6em", fontWeight: 400, opacity: 0.65, lineHeight: 1 }}>{ENGINE}</small>
+					</span>
 				</a>
 				<span className="fyr-here" aria-hidden="true">
 					{currentLabel}
