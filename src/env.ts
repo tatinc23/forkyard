@@ -18,6 +18,15 @@ export interface Env {
 	X402_FACILITATOR_URL?: string;
 	PUBLIC_BASE_URL?: string;
 	PAYMENTS_SELF?: Fetcher;
+	/** primitiveOS: "mock" (default) never calls the network; "live" calls Primitive. */
+	PRIMITIVE_MODE?: "mock" | "live";
+	/** Placeholder until injected from 1Password (`op`). Never commit a real value. */
+	PRIMITIVE_API_KEY?: string;
+	PRIMITIVE_API_BASE?: string;
+	/** Shared secret used to verify inbound Primitive webhooks (HMAC-SHA256). */
+	PRIMITIVE_WEBHOOK_SECRET?: string;
+	/** Address the Foreman listens on, e.g. foreman@your-domain. */
+	PRIMITIVE_FOREMAN_ADDRESS?: string;
 }
 
 export const hall = (env: Env) => env.HALL.get(env.HALL.idFromName("hall"));
