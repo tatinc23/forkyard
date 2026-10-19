@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Primitive · powered by ForkYard (mockup)</title>
+<style>
+:root{--bg:#0b0f17;--panel:#121927;--line:#222c40;--txt:#e8edf6;--dim:#8d9ab3;--acc:#7c9cff;--ok:#3ddc97;--warn:#ffb454}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+.logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,#7c9cff,#b58cff);display:grid;place-items:center;font-weight:800;color:#0b0f17}
+.brand b{display:block;line-height:1}.brand small{color:var(--dim);font-size:11px}
+.pill{margin-left:auto;font-size:12px;color:var(--warn);border:1px solid #4a3a1c;border-radius:99px;padding:3px 10px}
+main{display:grid;grid-template-columns:300px 1fr 320px;height:calc(100vh - 56px)}
+.col{overflow:auto;border-right:1px solid var(--line)}.col:last-child{border:0}
+h2{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin:0;padding:14px 16px 8px}
+.addr{margin:0 16px 8px;padding:10px 12px;border:1px dashed var(--line);border-radius:10px;font-family:ui-monospace,monospace;font-size:13px;color:var(--acc)}
+.item{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);color:inherit;padding:12px 16px;cursor:pointer;font:inherit}
+.item:hover,.item[aria-current=true]{background:var(--panel)}
+.item .t{font-weight:600}.item .m{color:var(--dim);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tag{font-size:11px;border-radius:99px;padding:1px 8px;margin-left:6px;border:1px solid var(--line);color:var(--dim)}
+.tag.run{color:var(--acc);border-color:#2c3a66}.tag.rev{color:var(--ok);border-color:#1d5a41}
+.thread{padding:16px;display:flex;flex-direction:column;gap:12px;max-width:760px}
+.msg{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.msg .h{display:flex;justify-content:space-between;color:var(--dim);font-size:12px;margin-bottom:6px}
+.msg.bot{border-color:#2c3a66}
+.card{border:1px solid var(--line);border-radius:12px;padding:12px;margin:0 16px 12px;background:var(--panel)}
+.card h3{margin:0 0 8px;font-size:14px}
+.row{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding:4px 0;color:var(--dim)}.row b{color:var(--txt);font-weight:500}
+.bar{height:6px;background:var(--line);border-radius:9px;overflow:hidden;margin-top:4px}.bar i{display:block;height:100%;background:var(--acc)}
+.ok{color:var(--ok)}
+button.cta{background:var(--acc);color:#0b0f17;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer;width:100%}
+.fork{display:flex;align-items:center;gap:8px;font-size:13px;padding:5px 0}.dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}.dot.w{background:var(--acc);animation:p 1.2s infinite}
+@keyframes p{50%{opacity:.3}}
+.view{display:none}.view.on{display:block}
+@media(max-width:900px){main{display:block;height:auto}.col{border:0;border-bottom:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo" aria-hidden="true">P</div>
+<div class="brand"><b>Primitive</b><small>powered by ForkYard</small></div>
+<span class="pill">Mockup · sample data</span>
+</header>
+<main>
+<section class="col" aria-label="Inbox">
+<h2>Agent inbox</h2>
+<div class="addr">jobs@yard.example</div>
+<button class="item" data-v="a" aria-current="true"><div class="t">Build a landing page for the bakery<span class="tag run">building</span></div><div class="m">from owner@bakery.example · 2 min ago</div></button>
+<button class="item" data-v="b"><div class="t">Fix mobile menu overflow<span class="tag rev">ready to review</span></div><div class="m">from ops@cafe.example · 1 hr ago</div></button>
+<button class="item" data-v="c"><div class="t">Weekly specials email template<span class="tag">merged</span></div><div class="m">from owner@bakery.example · yesterday</div></button>
+</section>
+
+<section class="col" aria-label="Thread">
+<h2>Thread</h2>
+<div id="a" class="view on"><div class="thread">
+<div class="msg"><div class="h"><span>owner@bakery.example</span><span>2 min ago</span></div>Build a landing page for the bakery. Menu, hours, and a map. Keep it under $2.</div>
+<div class="msg bot"><div class="h"><span>jobs@yard.example</span><span>1 min ago</span></div>Job started. A crew of 3 agents is forking the repo now. I will reply here when it is ready for review.</div>
+</div></div>
+<div id="b" class="view"><div class="thread">
+<div class="msg"><div class="h"><span>ops@cafe.example</span><span>1 hr ago</span></div>The mobile menu overflows on small phones. Please fix.</div>
+<div class="msg bot"><div class="h"><span>jobs@yard.example</span><span>12 min ago</span></div>Ready for review. 2 of 3 contracts passed inspection; 1 needs your call. Open the review link to approve or reject.</div>
+</div></div>
+<div id="c" class="view"><div class="thread">
+<div class="msg"><div class="h"><span>owner@bakery.example</span><span>yesterday</span></div>Make a weekly specials email template.</div>
+<div class="msg bot"><div class="h"><span>jobs@yard.example</span><span>yesterday</span></div>Merged and paid out. Template is in the repo under /emails.</div>
+</div></div>
+</section>
+
+<section class="col" aria-label="Engine">
+<h2>ForkYard engine</h2>
+<div class="card"><h3>Crew (sample)</h3>
+<div class="fork"><span class="dot"></span>layout-agent · merged</div>
+<div class="fork"><span class="dot w"></span>content-agent · building</div>
+<div class="fork"><span class="dot w"></span>map-agent · building</div></div>
+<div class="card"><h3>Budget</h3><div class="row"><span>Spent</span><b>$0.84 of $2.00</b></div><div class="bar"><i style="width:42%"></i></div></div>
+<div class="card"><h3>Review by exception</h3><div class="row"><span>Passed inspection</span><b class="ok">2</b></div><div class="row"><span>Needs a human</span><b>1</b></div></div>
+<div class="card"><button class="cta" type="button">Open review</button></div>
+</section>
+</main>
+<script>
+document.querySelectorAll('.item').forEach(function(b){b.addEventListener('click',function(){
+document.querySelectorAll('.item').forEach(function(x){x.removeAttribute('aria-current')});
+b.setAttribute('aria-current','true');
+document.querySelectorAll('.view').forEach(function(v){v.classList.toggle('on',v.id===b.dataset.v)});
+});});
+</script>
+</body>
+</html>
